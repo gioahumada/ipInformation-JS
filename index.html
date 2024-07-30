@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conoce sobre tu IP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="dark">
+    <header class="container">
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="explicacion.html">Explicación</a></li>
+            </ul>
+        </nav>
+        <h1 class="text-center">Conoce sobre tu IP</h1>
+    </header>
+    <main class="container">
+        <h5>Tu IP es: <span id="my-ip"></span></h5>
+        <form id="ip-form">
+            <input type="text" id="ip-input" placeholder="Ingresa una IP">
+            <small></small>
+            <button type="submit">Buscar</button>
+        </form>
+        <div id="ip-info">
+            <p><strong>IP:</strong> <span id="info-ip"></span></p>
+            <p><strong>Hostname:</strong> <span id="info-hostname"></span></p>
+            <p><strong>City:</strong> <span id="info-city"></span></p>
+            <p><strong>Region:</strong> <span id="info-region"></span></p>
+            <p><strong>Country:</strong> <span id="info-country"></span></p>
+            <p><strong>Location:</strong> <span id="info-loc"></span></p>
+            <p><strong>Organization:</strong> <span id="info-org"></span></p>
+            <p><strong>Postal:</strong> <span id="info-postal"></span></p>
+            <p><strong>Timezone:</strong> <span id="info-timezone"></span></p>
+        </div>
+    </main>
+
+    <footer class="container ">
+        <p class="text-center">Hecho con <a class="no-style no-cursor" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><3</a> por <a class="no-style" href="">gioahumada.</a></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

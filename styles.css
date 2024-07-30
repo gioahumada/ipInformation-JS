@@ -1,0 +1,29 @@
+:root {
+    --pico-background-color: #yourBackgroundColor; /* Reemplaza con tu color de fondo */
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--pico-background-color);
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el body ocupe al menos el 100% de la altura de la ventana */
+  }
+  
+  #content {
+    flex: 1; /* Esto asegura que el contenido ocupe el espacio disponible */
+  }
+  
+  .no-style {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .no-cursor {
+    cursor: none;
+  }
